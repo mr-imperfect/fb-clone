@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: #f0f2f5;
+  font-family: inherit;
+  overflow-x: hidden;
+}
+/* .section {
+  display: flex;
+  justify-content: space-between;
+} */
+.left-section {
+  height: 400px;
+  width: 400px;
+  /* background-color: red; */
+  position: relative;
+  
+}
+.main-left{
+  position: absolute;
+  top: 100px;
+  left: 110px; 
+
+
+}
+.main-left h1 {
+  font-weight: bolder;
+  color: #2b58ac;
+  font-size: 40px;
+}
+.main-left h6 {
+  color: rgb(117, 117, 117);
+}
+.card-container {
+  display: flex;
+  /* background-color: red; */
+}
+.radius {
+  border-radius: 10px;
+  margin: 15px;
+  margin-left: 0px;
+}
+.card-container p {
+  text-align: center;
+  color: rgb(82, 82, 82);
+}
+.fontplus {
+  display: flex;
+  justify-content: center;
+}
+.fontplus i {
+  color: #2b58ac;
+  font-size: 40px;
+  margin-top: 70px;
+}
+#add {
+  margin-top: 40px;
+  color: #2b85ac;
+}
+
+/* .right-section {
+  /* background-color: red; */
+ 
+/* }/ */
+.main-right {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid rgb(209, 207, 207);
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.219);
+  position: absolute;
+  right: 110px;
+  top: 120px;
+  left: 115px;
+}
+.main-right input {
+  border-radius: 5px;
+  margin: 7px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border: 1px solid rgb(209, 207, 207);
+}
+.btnprimary {
+  background-color: #2b58ac;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  font-weight: bolder;
+  color: white;
+  width: 300px;
+  margin-left: 8px;
+  margin: 8px;
+  font-size: 20px;
+}
+.main-right p {
+  color: #2b58ac;
+  text-align: center;
+  font-size: 14px;
+}
+.btnsuccess {
+  width: 200px;
+  margin-left: 55px;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(17, 182, 72);
+  font-weight: bolder;
+}
+
+input:focus {
+  border: none;
+}
+
